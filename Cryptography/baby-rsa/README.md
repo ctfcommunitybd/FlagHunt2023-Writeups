@@ -1,3 +1,6 @@
+#### Challenge Name: baby-rsa
+#### Author Name: Sumit Al Khan
+
 The problem can be summarized in two parts. The first part is applying the **GCD attack** twice to recover two pairs of `(message_reduced, modulus)`. Then those pairs are used in **Chinese Remainder Theorem** to find the actual `message`. 
 
 Let us analyze the server script.
